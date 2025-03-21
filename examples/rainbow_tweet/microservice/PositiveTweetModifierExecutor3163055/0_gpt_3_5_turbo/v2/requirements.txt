@@ -2,3 +2,4 @@ jina==3.15.1.dev14
 docarray==0.21.0
 openai==0.27.5
 pytest
+grpcio>=1.58.3 # not directly required, pinned by Snyk to avoid a vulnerability
