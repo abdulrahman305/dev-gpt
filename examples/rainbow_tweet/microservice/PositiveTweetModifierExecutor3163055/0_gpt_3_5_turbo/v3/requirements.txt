@@ -2,3 +2,5 @@ jina==3.15.1.dev14
 docarray==0.21.0
 openai==0.27.5
 pytest
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
